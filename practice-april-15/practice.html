@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice 4.15</title>
+</head>
+<body>
+    <textarea name="about">Rick Sanchez it's a great scientific..</textarea>
+   
+    <textarea name="about" placeholder="Hold the place"></textarea>
+    <textarea name="about" placeholder="Please let us know about yourself"></textarea>
+    
+    <textarea name="about" cols="10" rows="2" >Initial textarea text!</textarea>
+    <hr>
+    <form>
+        <select name="options">
+          <option>First Item</option>
+          <option>Second Item</option>
+        </select>
+    </form>
+    
+    <form>
+        <select name="countries">
+          <option value="">Please select a Country</option>
+          <option value="arg">Argentina</option>
+          <option value="bra">Brasil</option>
+          <option value="chl">Chile</option>
+          <option value="can">Canada</option>
+        </select>
+      </form>
+      <form>
+        <select name="countries">
+          <option value="">Please select a Country</option>
+          <option value="arg">Argentina</option>
+          <option value="bra">Brasil</option>
+          <option value="chl">Chile</option>
+          <option value="can" selected>Canada</option>
+        </select>
+      </form>
+      <form>
+        <select name="countries" multiple="multiple" size="4">
+          <option value="">Please select a Country</option>
+          <option value="arg">Argentina</option>
+          <option value="bra">Brasil</option>
+          <option value="chl">Chile</option>
+          <option value="can" selected>Canada</option>
+        </select>
+      </form>
+      <hr>
+      <form>
+        <button value="create" name="create-user">+ User</button>
+      </form>
+      <form>
+        <button>
+          <img src="plus-icon.png" alt="plus icon" />
+          User
+        </button>
+      </form>
+      <hr>
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="filename" />
+        <input type="file" name="filename" multiple="multiple" />
+        <input type="file" name="filename" multiple />
+      </form>
+      <hr style="height:5px; border:solid; color:black;">
+      <form>
+        <input type="date" name="birthday" />
+        <input id="date" type="date" value="1980-04-02">
+      </form>
+      <hr>
+      <form>
+        <input type="email" name="email" />email
+      </form>
+      <hr>
+      <form>
+        <input type="url" name="personalsite" />url
+      </form>
+      <hr>
+      <form>
+        <input type="search" name="query" />search
+      </form>
+      <hr style="height:5px; border:solid; color:black;">
+      <form>
+        <input type="text" name="name" required />
+        <input type="text" name="name" required="required" />
+      </form>
+      <hr>
+      <form>
+        <input type="text" name="name" pattern="^[a-zA-Z]+$" placeholder="name" title="Input only letters" /> 
+        <input type="text" name="age" pattern="\d+" placeholder="age" title="Input only numbers" />
+        <input type="submit" value="Submit">
+      </form>
+      <hr><hr>
+      <article>
+        <p>Author Name</p>
+        <time>02/02/2017</time>
+        <address>
+          136 Market Av.
+        </address>
+      </article>
+
+
+
+
+</body>
+</html>

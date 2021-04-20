@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+    <hr>
+    <form action="create_user.html" method="GET" enctype="application/x-www-form-urlencoded">
+        <label for="username">Username: <input type="text" name="username" id="username" size="30" maxlength="12" placeholder="username"></label>
+    
+        <fieldset>
+            <legend>User Form</legend>
+        </fieldset>
+    
+        <label for="password">Password: <input type="password" size="30" maxlength="8" placeholder="password"></label>
+        <br>
+    
+        <p>Select your favourite superheroe</p>
+        <label><input type="radio" name="superheros" value="Superman">Superman</label><br>
+        <label><input type="radio" name="superheros" value="Batman" checked>Batman</label><br>
+        <label><input type="radio" name="superheros" value="Wonder Woman">Wonder Woman</label><br>
+        <label><input type="radio" name="superheros" value="Flash">Flash</label><br>
+        <label><input type="radio" name="superheros" value="Thor">Thor</label><br>
+        <label><input type="radio" name="superheros" value="Hulk">Hulk</label><br>
+
+        <p>Select your favourite video game</p>
+        <label><input type="checkbox" name="vidoegames" value="Fifa" checked>Fifa</label><br>
+        <label><input type="checkbox" name="vidoegames" value="NHL">NHL</label><br>
+        <label><input type="checkbox" name="vidoegames" value="Residen Evil">Residen Evil</label><br>
+        <label><input type="checkbox" name="vidoegames" value="Uncharted" checked>Uncharted</label><br>
+
+        <p>Here is a hidden input!</p>
+        <input type="hidden" name="userid" value="2300">
+
+        <label><input type="image" name="login" src="img/register_button.jpg" width="90" height="30"></label>
+        <hr>
+        <label for="birthday">Select your birthday: <input type="date" name="birthday" id="birthday"></label>
+        <br>
+        <label for="emailAddress">Input your email: <input type="email" name="emailAddress" id="emailAddress"></label>
+        <br>
+        <label for="yourSite">Input your site URL: <input type="url" name="yourSite" id="yourSite"></label>
+        <br>
+        <label for="submit"><input type="submit" name="submit" id="submit"></label>
+
+    </form>
+    <form action="https://www.google.ca/search">
+        <label for="q"><input type="search" name="q" id="q"></label>
+        <label for="searchBtn"><input type="submit" name="searchBtn" id="searchBtn" value="Search"></label>
+
+    </form>
+    
+</body>
+</html>
